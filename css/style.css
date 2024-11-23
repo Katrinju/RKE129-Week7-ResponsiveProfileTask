@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+
+.image-container {   
+    clip-path: circle(50% at 50% 50%);
+    background-image: url('../img/profile1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 450px;
+    margin: 2rem auto;  
+}
+
+.navigation ul li {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 16rem;
+    margin: 3rem 0;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 6rem;
+}
+
+
+.main-container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.main-container div {
+    margin-bottom: 2rem;
+}
+
+.main-container h1 {
+    margin-bottom: 5rem;
+}
+
+.main-container p {
+    text-align: justify;
+}
+
+.footer {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.footer ul a {
+    color: #777;
+    text-decoration: none;
+}
+
+
+@media (min-width: 480px) {
+    
+    .image-container { 
+        background-image: url(../img/profile2.jpg);   
+    }
+
+    /*muuda image-container taustapilti*/
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+
+    .container {
+        background-color: blanchedalmond;
+        color:rgb(90, 90, 201);
+        width: 100%;
+    }
+    
+    .footer ul a {
+        color: rgb(90, 90, 201);
+    }
+    
+
+    .navigation ul li {
+        border: 1px solid blue;
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        color:rgb(90, 90, 201);
+        padding: 0.75rem;    
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+    
+
+}
+
+
+@media (min-width: 768px) {
+
+    .image-container { 
+        background-image: url(../img/profile3.jpg);   
+    }
+
+    /*muuda image-container taustapilti*/
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+    .container {
+        background-color: rgb(225, 126, 143);
+        color:white;
+        width: 100%;
+    }
+    
+    .footer ul a {
+        color: white;
+    }
+    
+
+    .navigation ul li {
+        border: 1px solid white;
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        color:white;
+        padding: 0.75rem;    
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+    
+}
+
+
+@media (min-width: 1024px){
+
+    /*muuda image-container taustapilti*/
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+    .image-container { 
+        background-image: url(../img/profile4.jpg);   
+    }
+    .container {
+        background-color:rgb(198, 237, 198);
+        color:rgb(16, 68, 16);
+        width: 100%;
+    }
+    
+    .footer ul a {
+        color: rgb(16, 68, 16);
+    }
+    
+
+    .navigation ul li {
+        border: 1px solid rgb(6, 39, 6);
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        color:rgb(16, 68, 16);
+        padding: 0.75rem;    
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+    
+}
+
+
+@media (min-width: 1200px){
+
+    /*muuda image-container taustapilti*/
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+    .image-container { 
+        background-image: url(../img/profile1.jpg);   
+    }
+
+    .container {
+        background-color:rgb(237, 237, 148);
+        color:rgb(110, 97, 97);
+        width:100%;
+    }
+    
+    .footer ul a {
+        color:rgb(110, 97, 97) ;
+    }
+    
+
+    .header h1 {
+        margin: 3rem auto;
+    }
+    .navigation ul li {
+        border-color: grey;
+        display: inline-block;
+        width: 16rem;
+    }
+    
+    .navigation ul li:not(:last-child) {
+        border-bottom: 1px solid grey;
+        margin-right: 4rem;
+    }
+
+    .main-container {
+        color:rgb(110, 97, 97)
+       
+    }
+
+}
+
+
